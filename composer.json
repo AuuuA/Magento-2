@@ -12,8 +12,15 @@
     },
     "version": "2.4.2",
     "require": {
-        "magento/product-community-edition": "2.4.2",
-        "magento/composer-root-update-plugin": "~1.1"
+        "fooman/emailattachments-m2": "^3.3",
+        "fooman/printorderpdf-m2": "^3.3",
+        "fooman/sameorderinvoicenumber-m2": "^3.0",
+        "magefan/module-blog": "^2.10",
+        "magento/composer-root-update-plugin": "~1.1",
+        "magento/product-community-edition": "2.4.2-p1",
+        "mageplaza/module-smtp": "^4.3",
+        "smile/elasticsuite": "^2.10",
+        "stripe/stripe-payments": "^2.5"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -52,12 +59,7 @@
         "sebastian/phpcpd": "~5.0.0",
         "squizlabs/php_codesniffer": "~3.5.4"
     },
-   "replace": {
-        "amzn/amazon-pay-and-login-magento-2-module": "*",
-        "amzn/amazon-pay-and-login-with-amazon-core-module": "*",
-        "amzn/amazon-pay-module": "*",
-        "amzn/amazon-pay-sdk-php": "*",
-        "amzn/login-with-amazon-module": "*",
+    "replace": {
         "astock/stock-api-libphp": "*",
         "dotmailer/dotmailer-magento2-extension": "*",
         "dotmailer/dotmailer-magento2-extension-chat": "*",
@@ -281,4 +283,3 @@
         "magento-force": "override"
     }
 }
-
